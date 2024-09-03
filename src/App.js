@@ -10,7 +10,7 @@ function App() {
         <Nav />
         <Home />
       </div>
-      <NavLink to={"/:tripId"}>TripDetail</NavLink>
+      <NavLink to={"/trips"}>Trips</NavLink>
     </div>
   );
 }
